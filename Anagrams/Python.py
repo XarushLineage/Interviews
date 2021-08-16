@@ -15,5 +15,5 @@ def check(s1, s2):
  
 #Driver code
 if __name__ == '__main__':
-    word1, word2 = 'listen', 'silont'
+    word1, word2 = 'aide', 'idea'
     check(word1, word2)
