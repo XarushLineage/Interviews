@@ -1,0 +1,18 @@
+Queue Data Structure Implementation in Python
+
+The queue data structure is a collection of elements, where the elements are kept in a sequence and are processed in a First-In-First-Out (FIFO) order. This means that the first element that is inserted into the queue is also the first one to be removed. Queues are widely used in computing, especially in operating systems and networking, where they are used to manage tasks or data packets that need to be processed in the order they arrive.
+
+This program implements the queue data structure in Python using a list to store the elements. 
+
+Here are the descriptions of the basic operations:
+
+    __init__(self): Initializes the queue with an empty list of items.
+    is_empty(self): Returns True if the queue is empty, False otherwise.
+    enqueue(self, item): Adds an item to the end of the queue.
+    dequeue(self): Removes and returns the first item from the queue. Raises an exception if the queue is empty.
+    size(self): Returns the number of items in the queue.
+
+This implementation uses a list to store the items in the queue. 
+The enqueue() function adds an item to the end of the list, while the dequeue() function removes and returns the first item in the list. 
+The is_empty() function checks if the list is empty, and the size() function returns the length of the list.
+
